@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "navbar navbar navbar"
+        "banner banner offer1"
+        "banner banner offer2"
+        "left product product"
+        "recent product product"
+        "tags product product"
+        "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
+.header { 
+    grid-area: header; 
+    background: rgb(13, 13, 48); 
+    font-size: 24px; 
+    font-weight: bold;
+    color: brown;
+    background-image: url(https://e7.pngegg.com/pngimages/353/398/png-clipart-internet-meme-male-meme-hand-meme-thumbnail.png);
+    background-color: black;
+}
+.navbar { 
+    grid-area: navbar; 
+    background: rgb(19, 17, 17); 
+    font-size: 24px; 
+    color: black;
+    font-weight: bold;
+    background-image: url(https://www.citypng.com/public/uploads/preview/funny-ginger-memes-cat-transparent-png-735811696684715rzr8agw7dy.png);
+    background-size: contain;
+}
+.banner { 
+    grid-area: banner; 
+    background: rgb(19, 19, 36); 
+    background-image: url(https://static.vecteezy.com/system/resources/previews/045/648/580/non_2x/cute-hamster-meme-transparent-background-illustration-free-png.png);
+    background-size: contain;
+}
+
+.offer1 { 
+    grid-area: offer1; 
+    background: rgb(140, 66, 66); 
+}
+    
+.offer2 { 
+    grid-area: offer2; 
+    background: rgb(52, 14, 52); }
+
+
+.left { 
+    grid-area: left; 
+    background: rgb(144, 149, 151); }
+.recent { 
+    grid-area: recent; 
+    background: rgb(47, 47, 59); }
+.tags { 
+    grid-area: tags; 
+    background: rgb(85, 81, 75); }
+.product { 
+    grid-area: product; 
+    background: linear-gradient(to right, rgb(26, 19, 19), yellow);
+}
+.footer {
+    grid-area: footer; 
+    background: black; 
+    background-image: url(https://i.imgflip.com/7u7caf.png);
+    background-size: contain;
+}

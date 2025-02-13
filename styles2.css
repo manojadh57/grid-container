@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.grid-containe {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "navbar navbar navbar"
+    "banner banner offer1"
+    "banner banner offer2"
+    "left product product"
+    "recent product product"
+    "tags product product"
+    "footer footer footer";
+    grid-template-columns : 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    gap: 5px;   
+}
+
+
+
+
+
