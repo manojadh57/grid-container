@@ -8,6 +8,7 @@ body {
 .grid-containe {
     display: grid;
     grid-template-areas: 
+        grid-template-areas: 
     "header header header"
     "navbar navbar navbar"
     "banner banner offer1"
