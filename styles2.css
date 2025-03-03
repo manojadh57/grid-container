@@ -3,7 +3,9 @@ body {
     font-family: Arial, sans-serif;
     color: white;
     text-align: center;
-}
+     text-align: center;
+
+
 
 .grid-containe {
     display: grid;
